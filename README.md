@@ -2,12 +2,14 @@
 ## Vendo as redes
 - ip -br -c a
 
-## Configurando o servidor
-### Configurando a placa de rede
+## Configurando as redes
 - cd /etc/network
 - cp interfaces interfaces.old (copiando o arquivo de interfaces)
 - nano interfaces (editando o arquivo interfaces)
 - allow-hotplug = placa ativa (plug n play)
+
+## Configurando o servidor
+
 
 ### Ativando a placa de rede
 - allow-hotplug (nome da placa)
@@ -33,7 +35,4 @@
 ### Parando e reiniciando o servidor
 - Parar: systemctl stop ssh / systemctl stop apache2
 - Reiniciar: systemctl start ssh / systemctl start apache2
-
-## Configurando o cliente
-###
 
