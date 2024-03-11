@@ -14,6 +14,16 @@
 - service networking restart (reiniciando os serviços de rede do linux)
 - init 6 (reinicia a máquina)
 
-### instalando o servidor
+### Instalando o servidor
 - apt update
 - apt install apache2
+- apt install net-tools
+
+### Portas
+- Apache: 80
+  
+### Vendo o ip com net-tools
+- ifconfig
+
+### 
+- netstat -nltp
