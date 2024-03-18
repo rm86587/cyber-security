@@ -40,6 +40,7 @@
 ### acessando a pasta www:
 - cd /var/www
   #### movendo o index.html (mostrando erro e vunerabilidade ao mover o arquivo padrão do projeto)
+  - Todo projeto deve ter um arquivo de segurança!
   - mv index.html ..
   ### Falhas:
   É mostrado na tela:
