@@ -39,5 +39,12 @@
 # Aula 18/03/2024
 ### acessando a pasta www:
 - cd /var/www
-  #### movendo o index.html (mostrando erro e vunerabilidade ao mover o arquivo padrão do servidor)
+  #### movendo o index.html (mostrando erro e vunerabilidade ao mover o arquivo padrão do projeto)
   - mv index.html ..
+  ### Falhas:
+  É mostrado na tela:
+  - Versão do servidor;
+  - Distribuição;
+  - IP;
+  - Porta do servidor
+  - Todos arquivos de configuração
