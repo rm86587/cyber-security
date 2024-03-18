@@ -39,3 +39,5 @@
 # Aula 18/03/2024
 ### acessando a pasta www:
 - cd /var/www
+  #### movendo o index.html
+  - mv index.html ..
