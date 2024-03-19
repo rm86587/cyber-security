@@ -28,7 +28,7 @@
 
 ### Vendo o ip com net-tools
 - ifconfig
-- 
+
 ### Vendo conexões ativas (sem servidores)
 - netstat -nltp
 
