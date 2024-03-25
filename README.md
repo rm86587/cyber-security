@@ -33,8 +33,9 @@
 - netstat -nltp
 
 ### Parando e reiniciando o servidor
+- Iniciar service apache2 start
 - Parar: systemctl stop ssh / systemctl stop apache2 || service apache2 stop
-- Reiniciar: systemctl start ssh / systemctl start apache2  || service apache2 start
+- Reiniciar: systemctl start ssh / systemctl start apache2  || service apache2 restart
 
 # Aula 18/03/2024
 ### acessando a pasta www:
