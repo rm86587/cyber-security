@@ -1,8 +1,12 @@
 # CYBERSECURITY FOR DEV 💻👾
 # Aula 11/03/2024
+## CONFIGURANDO AS PORTAS DA VM:
+- Adapter 1 :NAT
+- Adapter 2: Briged
+- Adapter 3: Internal (name: fiap)
 ## Vendo as redes
 - ip -br -c a
-
+ 
 ## Configurando as redes
 - cd /etc/network
 - cp interfaces interfaces.old (copiando o arquivo de interfaces)
