@@ -57,3 +57,19 @@
 - nano apache2.conf
 - achar a opção diretório <Directory /var/www>
 - apagar Indexes
+
+### Acessando arquivo de configuração de segurança
+- cd /etc/apache2/conf-enabled
+- nano security.conf
+  - limitando o acesso a informações sobre o SO:
+    - ServerTokens Prod
+  - limitando o acesso a informações sobre o ip e a porta:
+    - ServerSignature Off
+# 
+### Acessando log
+- cd /var/log/apache2
+- cat access.log| wc -l (conta as linhas do log)
+- head /etc/passwd (retorna as 10 primeiras linhas)
+- head -n n /etc/passwd (retorna n primeiras linhas)
+- tail /etc/passwd (retorna  10 ultimas linhas)
+- tail -n n /etc/passwd (retorna n ultimas linhas)
