@@ -49,3 +49,10 @@
   - IP;
   - Porta do servidor
   - Todos arquivos de configuração
+
+# Aula 25/02/2024
+### Corrigindo falha de segurança
+- cd /etc/apache2
+- nano apache2.conf
+- achar a opção diretório <Directory /var/www>
+- apagar Indexes
