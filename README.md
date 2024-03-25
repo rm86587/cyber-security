@@ -38,7 +38,7 @@
 - Reiniciar: systemctl start ssh / systemctl start apache2  || service apache2 restart
 
 # Aula 18/03/2024
-### acessando a pasta www:
+### Acessando a pasta www:
 - cd /var/www
   #### movendo o index.html (mostrando erro e vunerabilidade ao mover o arquivo padrão do projeto)
   - Todo projeto deve ter um arquivo de segurança!
