@@ -33,3 +33,20 @@ nc -v 10.20.23.127 1234
 ```
 
 ### Transferindo arquivos entre máquinas
+#### Verificando o hash do arquivo criado
+```
+md5sum aulacp.txt
+```
+#### enviando o arquivo que está no servidor para o cliente
+```
+cat aulacp.txt | nc -lvp 1234
+```
+#### Recebendo o arquivo do servidor no cliente
+- aqui pode-se colocar qualquer nome e extensão para se receber o arquivo, o importante é o hash do arquivo original ser igual ao do arquivo que o cliente recebeu.
+```
+nc -v 10.20.23.127 1234 > video.avi
+```
+```
+md5sum aulacp.txt
+```
+
