@@ -47,6 +47,6 @@ cat aulacp.txt | nc -lvp 1234
 nc -v 10.20.23.127 1234 > video.avi
 ```
 ```
-md5sum aulacp.txt
+md5sum video.avi
 ```
 
