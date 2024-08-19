@@ -62,5 +62,25 @@ ls
 - agora para conectar precisa passar a nova porta:
 ```ssh aluno@192.168.1.30 -p 2244```
 
+## Usando HYDRA para BruteForce
+1ª forma:
+Sabendo o usuário
+```hydra -l aluno -P senhas.txt```
+2ª forma:
+```hydra -L usuarios.txt -P senhas.txt```
+
+### Acessando a wordlist de senhas vazadas
+```
+   cd /usr/share/wordlist
+   ls
+   cat rockyou.txt | grep  sua_senha
+```
+caso esteja compactado
+```
+gzip -d arquivo.gz
+```
+
+
+
 # CHECKPOINT 1
 - Acessar uma pagina web que esta em um servidor com uma faixa de ip diferenta da do ssh
